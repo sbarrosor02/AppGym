@@ -175,6 +175,15 @@ const AppDB = {
         });
     },
 
+    // ---- Routine ----
+    async getCustomRoutine() {
+        return await this.getPref('custom_routine');
+    },
+
+    async saveCustomRoutine(routine) {
+        await this.setPref('custom_routine', routine);
+    },
+
     // ---- Last weights per exercise ----
     async getLastWeights(exerciseId) {
         const weights = await this.getPref(`lastWeights_${exerciseId}`);

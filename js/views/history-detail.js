@@ -12,7 +12,8 @@ const HistoryDetailView = {
         Nav.show();
         Nav.update();
 
-        const session = SESSIONS.find(s => s.id === workout.sessionId);
+        const sessions = await getSessions();
+        const session = sessions.find(s => s.id === workout.sessionId);
         const sessionName = session ? `${session.name}: ${session.subtitle}` : 'Entrenamiento';
 
         document.getElementById('header-title').textContent = sessionName;

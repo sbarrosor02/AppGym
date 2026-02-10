@@ -2,7 +2,8 @@
 const SessionView = {
     async render(params, container) {
         const sessionId = parseInt(params.id);
-        const session = SESSIONS.find(s => s.id === sessionId);
+        const sessions = await getSessions();
+        const session = sessions.find(s => s.id === sessionId);
         if (!session) {
             Router.navigate('#/');
             return;

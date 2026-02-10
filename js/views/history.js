@@ -9,6 +9,7 @@ const HistoryView = {
         document.getElementById('header-right').innerHTML = '';
 
         const workouts = await AppDB.getAllWorkouts();
+        const sessions = await getSessions();
 
         if (workouts.length === 0) {
             container.innerHTML = `
@@ -24,7 +25,7 @@ const HistoryView = {
         container.innerHTML = `
             <div class="section-title">${workouts.length} entrenamiento${workouts.length !== 1 ? 's' : ''}</div>
             ${workouts.map(w => {
-                const session = SESSIONS.find(s => s.id === w.sessionId);
+                const session = sessions.find(s => s.id === w.sessionId);
                 const color = session ? session.color : 'var(--text-muted)';
                 const sessionName = session ? `${session.name}: ${session.subtitle}` : 'Sesion desconocida';
                 const date = new Date(w.date);

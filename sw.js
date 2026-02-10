@@ -21,6 +21,7 @@ const ASSETS = [
     './js/views/measurements.js',
     './js/views/progress.js',
     './js/views/settings.js',
+    './js/views/workout-editor.js',
     './icons/icon-192.png',
     './icons/icon-512.png',
     './icons/apple-touch-icon.png'

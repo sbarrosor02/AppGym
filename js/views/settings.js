@@ -27,6 +27,13 @@ const SettingsView = {
             </div>
 
             <div class="settings-section">
+                <div class="settings-section-title">Rutina</div>
+                <button class="btn btn-primary settings-btn" onclick="Router.navigate('#/workout-editor')">
+                    Editar Rutina / Importar PDF
+                </button>
+            </div>
+
+            <div class="settings-section">
                 <div class="settings-section-title">Exportar / Importar</div>
                 <button class="btn btn-outline settings-btn" id="export-btn">
                     Exportar datos (JSON)

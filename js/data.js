@@ -7,7 +7,8 @@ const SESSIONS = [
         color: 'var(--session1)',
         warmup: {
             name: 'Calentamiento',
-            comment: 'Movilidad Articular del tren superior con gomas. Manguitos'
+            comment: 'Movilidad Articular del tren superior con gomas. Manguitos',
+            gifUrl: ''
         },
         exercises: [
             {
@@ -18,7 +19,8 @@ const SESSIONS = [
                 reps: [15, 12, 10, 8],
                 rest: 90,
                 comment: 'Buena intensidad, RIR 1. Al acabar la ultima bajas el peso y 1 extra.',
-                isPrimary: true
+                isPrimary: true,
+                gifUrl: ''
             },
             {
                 id: 's1e2',
@@ -28,7 +30,8 @@ const SESSIONS = [
                 reps: [15, 12, 10, 8],
                 rest: 60,
                 comment: 'Movimiento hacia abajo no hacia delante. Codos fijos.',
-                isPrimary: false
+                isPrimary: false,
+                gifUrl: ''
             },
             {
                 id: 's1e3',
@@ -38,7 +41,8 @@ const SESSIONS = [
                 reps: [15, 12, 10, 8],
                 rest: 60,
                 comment: 'Agarre algo mas ancho de los hombros. Piernas fijas.',
-                isPrimary: true
+                isPrimary: true,
+                gifUrl: ''
             },
             {
                 id: 's1e4',
@@ -48,7 +52,8 @@ const SESSIONS = [
                 reps: [12, 10, 8, 8],
                 rest: 60,
                 comment: 'Contraemos 1 segundo en maxima contraccion. RIR 0.',
-                isPrimary: false
+                isPrimary: false,
+                gifUrl: ''
             },
             {
                 id: 's1e5',
@@ -58,7 +63,8 @@ const SESSIONS = [
                 reps: [20, 18, 16, 15, 12],
                 rest: 60,
                 comment: 'Poco peso. Brazos casi rectos. Seguimos linea escapular.',
-                isPrimary: true
+                isPrimary: true,
+                gifUrl: ''
             },
             {
                 id: 's1e6',
@@ -68,7 +74,8 @@ const SESSIONS = [
                 reps: [15, 12, 10, 8],
                 rest: 60,
                 comment: 'De pie, hacemos giro de muneca durante el movimiento.',
-                isPrimary: false
+                isPrimary: false,
+                gifUrl: ''
             },
             {
                 id: 's1e7',
@@ -78,7 +85,8 @@ const SESSIONS = [
                 reps: [15, 12, 10, 8],
                 rest: 60,
                 comment: 'Con cuerda, polea altura de la rodilla. Movimiento vertical.',
-                isPrimary: false
+                isPrimary: false,
+                gifUrl: ''
             }
         ],
         cooldown: {
@@ -87,7 +95,8 @@ const SESSIONS = [
             sets: 3,
             reps: [null, null, null],
             rest: 30,
-            comment: 'Plancha frontal. 3 series. Lo maximo posible.'
+            comment: 'Plancha frontal. 3 series. Lo maximo posible.',
+            gifUrl: ''
         }
     },
     {
@@ -97,7 +106,8 @@ const SESSIONS = [
         color: 'var(--session2)',
         warmup: {
             name: 'Calentamiento',
-            comment: 'Movilidad articular tren inferior'
+            comment: 'Movilidad articular tren inferior',
+            gifUrl: ''
         },
         exercises: [
             {
@@ -108,7 +118,8 @@ const SESSIONS = [
                 reps: [12, 10, 10, 8],
                 rest: 90,
                 comment: 'RIR 0. Mov. controlado lento. Si podemos anadir algo de peso.',
-                isPrimary: true
+                isPrimary: true,
+                gifUrl: ''
             },
             {
                 id: 's2e2',
@@ -118,7 +129,8 @@ const SESSIONS = [
                 reps: [null, null, null, null],
                 rest: 90,
                 comment: 'Con barra, bajamos lento y salto explosivo controlado.',
-                isPrimary: true
+                isPrimary: true,
+                gifUrl: ''
             },
             {
                 id: 's2e3',
@@ -128,7 +140,8 @@ const SESSIONS = [
                 reps: [12, 10, 8, 8],
                 rest: 60,
                 comment: 'Utilizamos un cajon grande. Mov. controlado. Cuerpo hacia delante.',
-                isPrimary: false
+                isPrimary: false,
+                gifUrl: ''
             },
             {
                 id: 's2e4',
@@ -138,7 +151,8 @@ const SESSIONS = [
                 reps: [12, 10, 10, 8],
                 rest: 90,
                 comment: 'Bajamos lento + salto explosivo. Peso en mano contraria opcional.',
-                isPrimary: true
+                isPrimary: true,
+                gifUrl: ''
             },
             {
                 id: 's2e5',
@@ -148,7 +162,8 @@ const SESSIONS = [
                 reps: [15, 12, 10, 8],
                 rest: 60,
                 comment: 'RIR 1. Rango de movimiento completo.',
-                isPrimary: false
+                isPrimary: false,
+                gifUrl: ''
             },
             {
                 id: 's2e6',
@@ -158,7 +173,8 @@ const SESSIONS = [
                 reps: [12, 10, 10, 8],
                 rest: 60,
                 comment: 'Unilateral.',
-                isPrimary: false
+                isPrimary: false,
+                gifUrl: ''
             }
         ],
         cooldown: {
@@ -167,7 +183,8 @@ const SESSIONS = [
             sets: 3,
             reps: [1, 1, 1],
             rest: 30,
-            comment: 'Rodillo de antebrazos. 3 series.'
+            comment: 'Rodillo de antebrazos. 3 series.',
+            gifUrl: ''
         }
     },
     {
@@ -181,7 +198,8 @@ const SESSIONS = [
             sets: 4,
             reps: [null, null, null, null],
             rest: 30,
-            comment: 'Flexiones al fallo. 4 series.'
+            comment: 'Flexiones al fallo. 4 series.',
+            gifUrl: ''
         },
         exercises: [
             {
@@ -192,7 +210,8 @@ const SESSIONS = [
                 reps: [12, 10, 8, 8],
                 rest: 90,
                 comment: 'Banco adelantado y poleas altura del hombro. Codos rectos.',
-                isPrimary: true
+                isPrimary: true,
+                gifUrl: ''
             },
             {
                 id: 's3e2',
@@ -202,7 +221,8 @@ const SESSIONS = [
                 reps: [18, 15, 12, 10],
                 rest: 60,
                 comment: 'Cuerpo hacia delante, sacamos pecho. Barra por debajo del pecho.',
-                isPrimary: true
+                isPrimary: true,
+                gifUrl: ''
             },
             {
                 id: 's3e3',
@@ -212,7 +232,8 @@ const SESSIONS = [
                 reps: [18, 15, 12, 10],
                 rest: 60,
                 comment: 'RIR 0. Cuerpo bien separado e inclinado. Brazos rectos.',
-                isPrimary: false
+                isPrimary: false,
+                gifUrl: ''
             },
             {
                 id: 's3e4',
@@ -222,7 +243,8 @@ const SESSIONS = [
                 reps: [15, 12, 12, 10],
                 rest: 45,
                 comment: 'Barbilla pegada al pecho, contraemos arriba 1 segundo.',
-                isPrimary: false
+                isPrimary: false,
+                gifUrl: ''
             },
             {
                 id: 's3e5',
@@ -232,7 +254,8 @@ const SESSIONS = [
                 reps: [8, 6, 5, 3],
                 rest: 90,
                 comment: 'Agarre mixto.',
-                isPrimary: true
+                isPrimary: true,
+                gifUrl: ''
             },
             {
                 id: 's3e6',
@@ -242,7 +265,8 @@ const SESSIONS = [
                 reps: [15, 12, 10, 8],
                 rest: 60,
                 comment: 'Pies en posicion neutra. Rango de mov. completo hasta abajo.',
-                isPrimary: true
+                isPrimary: true,
+                gifUrl: ''
             },
             {
                 id: 's3e7',
@@ -252,7 +276,8 @@ const SESSIONS = [
                 reps: [null, null, null, null],
                 rest: 60,
                 comment: 'Explosivas. Vamos a un lado y subimos a posicion inicial explosiva.',
-                isPrimary: false
+                isPrimary: false,
+                gifUrl: ''
             }
         ],
         cooldown: {
@@ -261,7 +286,8 @@ const SESSIONS = [
             sets: 4,
             reps: [null, null, null, null],
             rest: 60,
-            comment: 'Pull face. Poco peso y al fallo. Cuerda y munecas hacia fuera.'
+            comment: 'Pull face. Poco peso y al fallo. Cuerda y munecas hacia fuera.',
+            gifUrl: ''
         }
     },
     {
@@ -275,7 +301,8 @@ const SESSIONS = [
             sets: 4,
             reps: [null, null, null, null],
             rest: 30,
-            comment: 'Sentadilla con salto. 4 series.'
+            comment: 'Sentadilla con salto. 4 series.',
+            gifUrl: ''
         },
         exercises: [
             {
@@ -286,7 +313,8 @@ const SESSIONS = [
                 reps: [12, 10, 8, 8],
                 rest: 90,
                 comment: 'RIR 1. Movimiento lento.',
-                isPrimary: true
+                isPrimary: true,
+                gifUrl: ''
             },
             {
                 id: 's4e2',
@@ -296,7 +324,8 @@ const SESSIONS = [
                 reps: [15, 12, 12, 10],
                 rest: 60,
                 comment: 'Cuerpo pegado al asiento. Gluteo firme.',
-                isPrimary: false
+                isPrimary: false,
+                gifUrl: ''
             },
             {
                 id: 's4e3',
@@ -306,7 +335,8 @@ const SESSIONS = [
                 reps: [18, 15, 12, 10],
                 rest: 60,
                 comment: 'RIR 0. Barbilla al pecho. Banco de hiperextensiones.',
-                isPrimary: true
+                isPrimary: true,
+                gifUrl: ''
             },
             {
                 id: 's4e4',
@@ -316,7 +346,8 @@ const SESSIONS = [
                 reps: [15, 12, 12, 10],
                 rest: 45,
                 comment: 'Codos bajos. Pecho sacado.',
-                isPrimary: true
+                isPrimary: true,
+                gifUrl: ''
             },
             {
                 id: 's4e5',
@@ -326,7 +357,8 @@ const SESSIONS = [
                 reps: [8, 6, 5, 3],
                 rest: 90,
                 comment: 'Movimiento vertical, contraemos al final del movimiento.',
-                isPrimary: true
+                isPrimary: true,
+                gifUrl: ''
             },
             {
                 id: 's4e6',
@@ -336,7 +368,8 @@ const SESSIONS = [
                 reps: [18, 15, 12, 10],
                 rest: 60,
                 comment: 'Cuerpo recto, brazos extendidos. Rango de mov. completo.',
-                isPrimary: false
+                isPrimary: false,
+                gifUrl: ''
             },
             {
                 id: 's4e7',
@@ -346,7 +379,8 @@ const SESSIONS = [
                 reps: [null, null, null],
                 rest: 60,
                 comment: 'Superserie. Lo maximo posible en cada serie.',
-                isPrimary: false
+                isPrimary: false,
+                gifUrl: ''
             }
         ],
         cooldown: {
@@ -355,10 +389,17 @@ const SESSIONS = [
             sets: 2,
             reps: [null, null],
             rest: 60,
-            comment: 'Plancha frontal + lateral a un lado y otro (1 Serie).'
+            comment: 'Plancha frontal + lateral a un lado y otro (1 Serie).',
+            gifUrl: ''
         }
     }
 ];
+
+// Helper to get sessions (custom or static)
+async function getSessions() {
+    const custom = await AppDB.getCustomRoutine();
+    return custom || SESSIONS;
+}
 
 // Helper to format reps display
 function formatReps(reps) {
@@ -388,9 +429,10 @@ function getSessionTotalSets(session) {
 }
 
 // Get all exercise IDs that use weights (for progress tracking)
-function getAllWeightedExercises() {
+async function getAllWeightedExercises() {
     const exercises = [];
-    for (const session of SESSIONS) {
+    const sessions = await getSessions();
+    for (const session of sessions) {
         for (const ex of session.exercises) {
             exercises.push({
                 id: ex.id,

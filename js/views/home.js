@@ -12,15 +12,17 @@ const HomeView = {
             </button>
         `;
 
+        const sessions = await getSessions();
+
         // Get last workout dates for each session
         const lastWorkouts = {};
-        for (const session of SESSIONS) {
+        for (const session of sessions) {
             lastWorkouts[session.id] = await AppDB.getLastWorkoutForSession(session.id);
         }
 
         container.innerHTML = `
-            <div class="section-title">4 Sesiones de entrenamiento</div>
-            ${SESSIONS.map(session => {
+            <div class="section-title">${sessions.length} Sesiones de entrenamiento</div>
+            ${sessions.map(session => {
                 const last = lastWorkouts[session.id];
                 const lastDate = last
                     ? new Date(last.date).toLocaleDateString('es-ES', { day: 'numeric', month: 'short' })

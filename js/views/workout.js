@@ -83,7 +83,8 @@ const WorkoutView = {
 
     async render(params, container) {
         const sessionId = parseInt(params.id);
-        this.session = SESSIONS.find(s => s.id === sessionId);
+        const sessions = await getSessions();
+        this.session = sessions.find(s => s.id === sessionId);
         if (!this.session) {
             Router.navigate('#/');
             return this;

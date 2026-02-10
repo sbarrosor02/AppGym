@@ -1116,3 +1116,50 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.03em;
 }
+
+/* ========== Exercise GIF ========== */
+.exercise-gif-container {
+    margin-top: 10px;
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+    position: relative;
+    background: var(--bg-input);
+    aspect-ratio: 16 / 9;
+    cursor: pointer;
+    border: 1px solid var(--border);
+}
+
+.exercise-gif {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.gif-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.exercise-gif-container.expanded {
+    aspect-ratio: auto;
+}
+
+.exercise-gif-container.expanded .exercise-gif {
+    object-fit: contain;
+}
+
+.exercise-gif-container.expanded .gif-overlay {
+    opacity: 0;
+    pointer-events: none;
+}

@@ -12,6 +12,7 @@
     Router.register('measurements', (params, container) => MeasurementsView.render(params, container));
     Router.register('progress', (params, container) => ProgressView.render(params, container));
     Router.register('settings', (params, container) => SettingsView.render(params, container));
+    Router.register('workout-editor', (params, container) => WorkoutEditorView.render(params, container));
 
     // Render nav
     Nav.render();

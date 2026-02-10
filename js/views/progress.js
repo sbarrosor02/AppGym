@@ -10,7 +10,7 @@ const ProgressView = {
         document.getElementById('header-left').innerHTML = '';
         document.getElementById('header-right').innerHTML = '';
 
-        const exercises = getAllWeightedExercises();
+        const exercises = await getAllWeightedExercises();
         const workouts = await AppDB.getAllWorkouts();
 
         // Auto-select first exercise if none selected
