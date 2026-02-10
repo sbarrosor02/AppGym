@@ -1,4 +1,4 @@
-const CACHE_NAME = 'apprutina-v1';
+const CACHE_NAME = 'apprutina-v2';
 
 const ASSETS = [
     './',
