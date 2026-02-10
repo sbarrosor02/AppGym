@@ -20,7 +20,7 @@ const SESSIONS = [
                 rest: 90,
                 comment: 'Buena intensidad, RIR 1. Al acabar la ultima bajas el peso y 1 extra.',
                 isPrimary: true,
-                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-smith-machine-incline-bench-press-front.gif'
+                gifUrl: 'https://fitnessprogramer.com/wp-content/uploads/2021/02/Smith-Machine-Incline-Bench-Press.gif'
             },
             {
                 id: 's1e2',
@@ -31,7 +31,7 @@ const SESSIONS = [
                 rest: 60,
                 comment: 'Movimiento hacia abajo no hacia delante. Codos fijos.',
                 isPrimary: false,
-                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-cable-high-to-low-crossover-front.gif'
+                gifUrl: 'https://fitnessprogramer.com/wp-content/uploads/2021/02/Cable-Crossover.gif'
             },
             {
                 id: 's1e3',
@@ -42,7 +42,7 @@ const SESSIONS = [
                 rest: 60,
                 comment: 'Agarre algo mas ancho de los hombros. Piernas fijas.',
                 isPrimary: true,
-                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-cable-lat-pulldown-front.gif'
+                gifUrl: 'https://fitnessprogramer.com/wp-content/uploads/2021/02/Lat-Pulldown.gif'
             },
             {
                 id: 's1e4',
@@ -53,7 +53,7 @@ const SESSIONS = [
                 rest: 60,
                 comment: 'Contraemos 1 segundo en maxima contraccion. RIR 0.',
                 isPrimary: false,
-                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-cable-seated-row-side.gif'
+                gifUrl: 'https://fitnessprogramer.com/wp-content/uploads/2021/02/Seated-Cable-Row.gif'
             },
             {
                 id: 's1e5',
@@ -64,7 +64,7 @@ const SESSIONS = [
                 rest: 60,
                 comment: 'Poco peso. Brazos casi rectos. Seguimos linea escapular.',
                 isPrimary: true,
-                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-dumbbell-lateral-raise-front.gif'
+                gifUrl: 'https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Lateral-Raise.gif'
             },
             {
                 id: 's1e6',
@@ -75,7 +75,7 @@ const SESSIONS = [
                 rest: 60,
                 comment: 'De pie, hacemos giro de muneca durante el movimiento.',
                 isPrimary: false,
-                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-dumbbell-curl-front.gif'
+                gifUrl: 'https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Curl.gif'
             },
             {
                 id: 's1e7',
@@ -86,7 +86,7 @@ const SESSIONS = [
                 rest: 60,
                 comment: 'Con cuerda, polea altura de la rodilla. Movimiento vertical.',
                 isPrimary: false,
-                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-cable-triceps-pushdown-front.gif'
+                gifUrl: 'https://fitnessprogramer.com/wp-content/uploads/2021/02/Rope-Pushdown.gif'
             }
         ],
         cooldown: {
