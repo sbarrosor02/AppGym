@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+    <meta name="theme-color" content="#0a0a0f">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="AppRutina">
+    <meta name="description" content="Rutina de entrenamiento personal">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>AppRutina</title>
+</head>
+<body>
+    <div id="app">
+        <header id="app-header">
+            <div id="header-left"></div>
+            <h1 id="header-title">AppRutina</h1>
+            <div id="header-right"></div>
+        </header>
+        <main id="app-content"></main>
+        <nav id="app-nav"></nav>
+    </div>
+
+    <!-- iOS Install Banner -->
+    <div id="install-banner" class="install-banner hidden">
+        <div class="install-banner-content">
+            <p>Para instalar: pulsa <strong>Compartir</strong> <span class="ios-share-icon">&#xE6AC;</span> y luego <strong>"Anadir a pantalla de inicio"</strong></p>
+            <button id="install-banner-close" class="install-banner-close">&times;</button>
+        </div>
+    </div>
+
+    <script src="js/db.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/components/nav.js"></script>
+    <script src="js/components/timer.js"></script>
+    <script src="js/components/chart.js"></script>
+    <script src="js/components/exercise-card.js"></script>
+    <script src="js/views/home.js"></script>
+    <script src="js/views/session.js"></script>
+    <script src="js/views/workout.js"></script>
+    <script src="js/views/history.js"></script>
+    <script src="js/views/history-detail.js"></script>
+    <script src="js/views/measurements.js"></script>
+    <script src="js/views/progress.js"></script>
+    <script src="js/views/settings.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
