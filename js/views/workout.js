@@ -237,6 +237,13 @@ const WorkoutView = {
                 <button class="btn-complete-set ${isLastSetOfLastExercise ? 'finish' : ''}" id="complete-set-btn">
                     ${isLastSetOfLastExercise ? 'Finalizar Entrenamiento' : 'Completar Serie'}
                 </button>
+
+                ${exercise.gifUrl ? `
+                    <div class="exercise-gif-container" style="margin-top: 24px;" id="workout-gif-trigger">
+                        <img src="${exercise.gifUrl}" alt="${exercise.name}" class="exercise-gif" loading="lazy">
+                        <div class="gif-overlay">Ver demostración</div>
+                    </div>
+                ` : ''}
             </div>
         `;
 
@@ -270,6 +277,16 @@ const WorkoutView = {
             currentReps++;
             updateRepsDisplay();
         });
+
+        // GIF toggle
+        const gifTrigger = container.querySelector('#workout-gif-trigger');
+        if (gifTrigger) {
+            gifTrigger.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                gifTrigger.classList.toggle('expanded');
+            });
+        }
 
         // Complete set
         container.querySelector('#complete-set-btn').addEventListener('click', async () => {
