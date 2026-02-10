@@ -196,6 +196,13 @@ const WorkoutView = {
                 ${typeLabel}
                 <div class="workout-exercise-title">${exercise.name}</div>
                 ${exercise.comment ? `<div class="workout-exercise-comment">${exercise.comment}</div>` : ''}
+                
+                ${exercise.gifUrl ? `
+                    <div class="exercise-gif-container" style="margin-bottom: 20px;" onclick="event.stopPropagation(); this.classList.toggle('expanded')">
+                        <img src="${exercise.gifUrl}" alt="${exercise.name}" class="exercise-gif" loading="lazy">
+                        <div class="gif-overlay">Ver demostración</div>
+                    </div>
+                ` : ''}
 
                 <div class="workout-progress-bar">${dotsHtml}</div>
                 <div class="workout-exercise-counter">
