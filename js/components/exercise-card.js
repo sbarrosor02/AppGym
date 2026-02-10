@@ -20,7 +20,7 @@ const ExerciseCard = {
                 </div>
                 ${exercise.comment ? `<div class="exercise-comment">${exercise.comment}</div>` : ''}
                 ${exercise.gifUrl ? `
-                    <div class="exercise-gif-container" onclick="this.classList.toggle('expanded')">
+                    <div class="exercise-gif-container" onclick="event.stopPropagation(); this.classList.toggle('expanded')">
                         <img src="${exercise.gifUrl}" alt="${exercise.name}" class="exercise-gif" loading="lazy">
                         <div class="gif-overlay">Ver demostración</div>
                     </div>
@@ -33,7 +33,7 @@ const ExerciseCard = {
         if (!warmup) return '';
 
         const gifHtml = warmup.gifUrl ? `
-            <div class="exercise-gif-container" onclick="this.classList.toggle('expanded')">
+            <div class="exercise-gif-container" onclick="event.stopPropagation(); this.classList.toggle('expanded')">
                 <img src="${warmup.gifUrl}" alt="${warmup.name}" class="exercise-gif" loading="lazy">
                 <div class="gif-overlay">Ver demostración</div>
             </div>
@@ -76,7 +76,7 @@ const ExerciseCard = {
         if (!cooldown) return '';
 
         const gifHtml = cooldown.gifUrl ? `
-            <div class="exercise-gif-container" onclick="this.classList.toggle('expanded')">
+            <div class="exercise-gif-container" onclick="event.stopPropagation(); this.classList.toggle('expanded')">
                 <img src="${cooldown.gifUrl}" alt="${cooldown.name}" class="exercise-gif" loading="lazy">
                 <div class="gif-overlay">Ver demostración</div>
             </div>
