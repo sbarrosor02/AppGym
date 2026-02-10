@@ -20,7 +20,7 @@ const SESSIONS = [
                 rest: 90,
                 comment: 'Buena intensidad, RIR 1. Al acabar la ultima bajas el peso y 1 extra.',
                 isPrimary: true,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-smith-machine-incline-bench-press-front.gif'
             },
             {
                 id: 's1e2',
@@ -31,7 +31,7 @@ const SESSIONS = [
                 rest: 60,
                 comment: 'Movimiento hacia abajo no hacia delante. Codos fijos.',
                 isPrimary: false,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-cable-high-to-low-crossover-front.gif'
             },
             {
                 id: 's1e3',
@@ -42,7 +42,7 @@ const SESSIONS = [
                 rest: 60,
                 comment: 'Agarre algo mas ancho de los hombros. Piernas fijas.',
                 isPrimary: true,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-cable-lat-pulldown-front.gif'
             },
             {
                 id: 's1e4',
@@ -53,7 +53,7 @@ const SESSIONS = [
                 rest: 60,
                 comment: 'Contraemos 1 segundo en maxima contraccion. RIR 0.',
                 isPrimary: false,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-cable-seated-row-side.gif'
             },
             {
                 id: 's1e5',
@@ -64,7 +64,7 @@ const SESSIONS = [
                 rest: 60,
                 comment: 'Poco peso. Brazos casi rectos. Seguimos linea escapular.',
                 isPrimary: true,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-dumbbell-lateral-raise-front.gif'
             },
             {
                 id: 's1e6',
@@ -75,7 +75,7 @@ const SESSIONS = [
                 rest: 60,
                 comment: 'De pie, hacemos giro de muneca durante el movimiento.',
                 isPrimary: false,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-dumbbell-curl-front.gif'
             },
             {
                 id: 's1e7',
@@ -86,7 +86,7 @@ const SESSIONS = [
                 rest: 60,
                 comment: 'Con cuerda, polea altura de la rodilla. Movimiento vertical.',
                 isPrimary: false,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-cable-triceps-pushdown-front.gif'
             }
         ],
         cooldown: {
@@ -119,7 +119,7 @@ const SESSIONS = [
                 rest: 90,
                 comment: 'RIR 0. Mov. controlado lento. Si podemos anadir algo de peso.',
                 isPrimary: true,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-dumbbell-walking-lunge-side.gif'
             },
             {
                 id: 's2e2',
@@ -130,7 +130,7 @@ const SESSIONS = [
                 rest: 90,
                 comment: 'Con barra, bajamos lento y salto explosivo controlado.',
                 isPrimary: true,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-bodyweight-jump-squat-side.gif'
             },
             {
                 id: 's2e3',
@@ -141,7 +141,7 @@ const SESSIONS = [
                 rest: 60,
                 comment: 'Utilizamos un cajon grande. Mov. controlado. Cuerpo hacia delante.',
                 isPrimary: false,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-dumbbell-step-up-side.gif'
             },
             {
                 id: 's2e4',
@@ -152,7 +152,7 @@ const SESSIONS = [
                 rest: 90,
                 comment: 'Bajamos lento + salto explosivo. Peso en mano contraria opcional.',
                 isPrimary: true,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-dumbbell-bulgarian-split-squat-side.gif'
             },
             {
                 id: 's2e5',
@@ -163,7 +163,7 @@ const SESSIONS = [
                 rest: 60,
                 comment: 'RIR 1. Rango de movimiento completo.',
                 isPrimary: false,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-machine-standing-leg-curl-side.gif'
             },
             {
                 id: 's2e6',
@@ -174,7 +174,7 @@ const SESSIONS = [
                 rest: 60,
                 comment: 'Unilateral.',
                 isPrimary: false,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-machine-standing-calf-raise-side.gif'
             }
         ],
         cooldown: {
@@ -211,7 +211,7 @@ const SESSIONS = [
                 rest: 90,
                 comment: 'Banco adelantado y poleas altura del hombro. Codos rectos.',
                 isPrimary: true,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-cable-seated-chest-press-front.gif'
             },
             {
                 id: 's3e2',
@@ -222,7 +222,7 @@ const SESSIONS = [
                 rest: 60,
                 comment: 'Cuerpo hacia delante, sacamos pecho. Barra por debajo del pecho.',
                 isPrimary: true,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-barbell-bent-over-row-side.gif'
             },
             {
                 id: 's3e3',
@@ -233,7 +233,7 @@ const SESSIONS = [
                 rest: 60,
                 comment: 'RIR 0. Cuerpo bien separado e inclinado. Brazos rectos.',
                 isPrimary: false,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-cable-straight-arm-pulldown-side.gif'
             },
             {
                 id: 's3e4',
@@ -244,7 +244,7 @@ const SESSIONS = [
                 rest: 45,
                 comment: 'Barbilla pegada al pecho, contraemos arriba 1 segundo.',
                 isPrimary: false,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-cable-lateral-raise-front.gif'
             },
             {
                 id: 's3e5',
@@ -255,7 +255,7 @@ const SESSIONS = [
                 rest: 90,
                 comment: 'Agarre mixto.',
                 isPrimary: true,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-barbell-deadlift-side.gif'
             },
             {
                 id: 's3e6',
@@ -266,7 +266,7 @@ const SESSIONS = [
                 rest: 60,
                 comment: 'Pies en posicion neutra. Rango de mov. completo hasta abajo.',
                 isPrimary: true,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-smith-machine-squat-side.gif'
             },
             {
                 id: 's3e7',
@@ -277,7 +277,7 @@ const SESSIONS = [
                 rest: 60,
                 comment: 'Explosivas. Vamos a un lado y subimos a posicion inicial explosiva.',
                 isPrimary: false,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-bodyweight-side-lunge-front.gif'
             }
         ],
         cooldown: {
@@ -287,7 +287,7 @@ const SESSIONS = [
             reps: [null, null, null, null],
             rest: 60,
             comment: 'Pull face. Poco peso y al fallo. Cuerda y munecas hacia fuera.',
-            gifUrl: ''
+            gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-cable-face-pull-side.gif'
         }
     },
     {
@@ -302,7 +302,7 @@ const SESSIONS = [
             reps: [null, null, null, null],
             rest: 30,
             comment: 'Sentadilla con salto. 4 series.',
-            gifUrl: ''
+            gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-bodyweight-jump-squat-front.gif'
         },
         exercises: [
             {
@@ -314,7 +314,7 @@ const SESSIONS = [
                 rest: 90,
                 comment: 'RIR 1. Movimiento lento.',
                 isPrimary: true,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-machine-hack-squat-side.gif'
             },
             {
                 id: 's4e2',
@@ -325,7 +325,7 @@ const SESSIONS = [
                 rest: 60,
                 comment: 'Cuerpo pegado al asiento. Gluteo firme.',
                 isPrimary: false,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-machine-lying-leg-curl-side.gif'
             },
             {
                 id: 's4e3',
@@ -336,7 +336,7 @@ const SESSIONS = [
                 rest: 60,
                 comment: 'RIR 0. Barbilla al pecho. Banco de hiperextensiones.',
                 isPrimary: true,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-bodyweight-hyperextension-side.gif'
             },
             {
                 id: 's4e4',
@@ -347,7 +347,7 @@ const SESSIONS = [
                 rest: 45,
                 comment: 'Codos bajos. Pecho sacado.',
                 isPrimary: true,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-machine-chest-press-front.gif'
             },
             {
                 id: 's4e5',
@@ -358,7 +358,7 @@ const SESSIONS = [
                 rest: 90,
                 comment: 'Movimiento vertical, contraemos al final del movimiento.',
                 isPrimary: true,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-cable-close-grip-lat-pulldown-front.gif'
             },
             {
                 id: 's4e6',
@@ -369,7 +369,7 @@ const SESSIONS = [
                 rest: 60,
                 comment: 'Cuerpo recto, brazos extendidos. Rango de mov. completo.',
                 isPrimary: false,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-cable-rear-delt-fly-side.gif'
             },
             {
                 id: 's4e7',
@@ -380,7 +380,7 @@ const SESSIONS = [
                 rest: 60,
                 comment: 'Superserie. Lo maximo posible en cada serie.',
                 isPrimary: false,
-                gifUrl: ''
+                gifUrl: 'https://media.musclewiki.com/media/uploads/videos/cleansed/gif/720/male-cable-hammer-curls-with-rope-front.gif'
             }
         ],
         cooldown: {
